@@ -1,6 +1,6 @@
 # cigar_plot.R
 
-**cigar_plot()**
+## cigar_plot()
 
 This is the main function to generate cigar plots.
 
@@ -28,9 +28,7 @@ This is the main function to generate cigar plots.
 
 **main_title / xlab / ylab** = Main, x-axis, or y-axis labels.
 
-
-
-**cigar_plot.calc_metrics()**
+## cigar_plot.calc_metrics()
 
 This function will take three vectors and calculate the inputs to necessary to generate cigar plots.
 
