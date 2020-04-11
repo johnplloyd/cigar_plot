@@ -32,6 +32,10 @@ This is the main function to generate cigar plots.
 
 **main_title / xlab / ylab**: Main, x-axis, or y-axis labels.
 
+*Output:*
+
+Generates a ciagr plot to the current graphics device.
+
 ## cigar_plot.calc_metrics()
 
 This function will take three vectors and calculate the inputs to necessary to generate cigar plots.
@@ -50,4 +54,6 @@ This function will take three vectors and calculate the inputs to necessary to g
 
 **spread_method**: Spread measure to calculate. Available: "IQR" (default), "var", and "sd".
 
-Output is a list object with mean observed values within groups ($obs_mean), mean predicted values within groups ($pred_mean), performance metrics within groups ($peformances), and the observed spread within groups ($spread).
+*Output:*
+
+Output is a list object with mean observed values within groups ($obs_mean), mean predicted values within groups ($pred_mean), performance metrics within groups ($peformances), and the observed spread within groups ($spread). These can be used as inputs to the **cigar_plot()** function.
