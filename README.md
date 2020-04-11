@@ -18,7 +18,7 @@ This is the main function to generate cigar plots.
 
 **base_spread**: numeric value indicating the spread length for the smallest spread value.
 
-**scale_mean**s: Boolean indicating whether the mean observed and predicted values should be scaled between 0 and 1. scale_means = TRUE is useful for cases when observed and predicted values are in different ranges, as the x- and y-axis limits should be equal so that ellipses plot correctly.
+**scale_means**: Boolean indicating whether the mean observed and predicted values should be scaled between 0 and 1. scale_means = TRUE is useful for cases when observed and predicted values are in different ranges, as the x- and y-axis limits should be equal so that ellipses plot correctly.
 
 **plot_limits**: min and max value for the x- and y-axes
 
@@ -26,7 +26,7 @@ This is the main function to generate cigar plots.
 
 **color_alpha**: Numeric value. Alpha transparency value for ellipsis backgrounds. Range: [0, 1].
 
-**main_title / xlab / ylab** = Main, x-axis, or y-axis labels.
+**main_title / xlab / ylab**: Main, x-axis, or y-axis labels.
 
 ## cigar_plot.calc_metrics()
 
