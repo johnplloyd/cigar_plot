@@ -10,11 +10,11 @@ This is the main function to generate cigar plots.
 
 *Required inputs:*
 
-**obs_mean**: numeric vector with mean *observed* response per group
+**obs_mean**: numeric vector with mean *observed* response per group.
 
-**pred_mean**: numeric vector with mean *predicted* response per group
+**pred_mean**: numeric vector with mean *predicted* response per group.
 
-**performances**: numeric vector with within-group performance measures. Values are expected to range between -1 and 1 (e.g. pearson or spearman correlation coefficients)
+**performances**: numeric vector with within-group performance measures. Values are expected to range between -1 and 1 (e.g. pearson or spearman correlation coefficients).
 
 *Optional inputs:*
 
@@ -24,7 +24,7 @@ This is the main function to generate cigar plots.
 
 **scale_means**: Boolean indicating whether the mean observed and predicted values should be scaled between 0 and 1. scale_means = TRUE is useful for cases when observed and predicted values are in different ranges, as the x- and y-axis limits should be equal so that ellipses plot correctly.
 
-**plot_limits**: min and max value for the x- and y-axes
+**plot_limits**: Numeric vector with min and max value for the x- and y-axes.
 
 **colors**: character vector with colors for groups.
 
@@ -38,11 +38,11 @@ This function will take three vectors and calculate the inputs to necessary to g
 
 *Required inputs:*
 
-**obs**: numeric vector with observed response values.
+**obs**: numeric vector with observed response values per instance.
 
-**pred**: numeric vector with predicted response values.
+**pred**: numeric vector with predicted response values per instance.
 
-**group_IDs**: character vector with group labels.
+**group_IDs**: character vector with group labels per instance.
 
 *Optional inputs:*
 
