@@ -1,5 +1,9 @@
 # cigar_plots.R
 
+Cigar plots represent a visualization strategy to simultaneously display within- and between-group prediction performances. The cigar plot displays each group as an ellipse and indicates between-group performance (mean predicted and observed response values) with the location of ellipsis centers and indicates within-group performance (e.g. rank correlation coefficients) with the tilt and width of ellipses. Ellipsis tilt was calculated by 45° × correlation coefficient: coefficient of 1 is associated with a 45° tilt, coefficient of 0 a 0° tilt, and coefficient of -1 a -45° tilt. The slopes of the lines transverse across ellipses are calculated the same as ellipsis tilt. Ellipsis length is scaled to observed within-group spread. Ellipsis width scales with within-group performance and is calculated as: ellipsis length – (ellipsis length × absolute correlation coefficient). Large absolute coefficients result in narrow ellipses (coefficient of 1 results in a line) while small coefficients result in round ellipses (coefficient of 0 results in a circle).
+
+The **cigar_plots.R** file contains two functions that can be used to generate cigar plots, described below.
+
 ## cigar_plot()
 
 This is the main function to generate cigar plots.
