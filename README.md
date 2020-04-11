@@ -28,7 +28,7 @@ This is the main function to generate cigar plots.
 
 **colors**: character vector with colors for groups.
 
-**color_alpha**: Numeric value. Alpha transparency value for ellipsis backgrounds. Range: [0, 1].
+**color_alpha**: Numeric value. Alpha transparency value for ellipsis backgrounds. Range: [0, 1], lower values = greater transparency.
 
 **main_title / xlab / ylab**: Main, x-axis, or y-axis labels.
 
