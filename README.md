@@ -1,4 +1,4 @@
-# cigar_plot.R
+# cigar_plots.R
 
 ## cigar_plot()
 
