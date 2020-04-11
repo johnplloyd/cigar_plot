@@ -38,9 +38,9 @@ This function will take three vectors and calculate the inputs to necessary to g
 
 *Required inputs:*
 
-**obs**: numeric vector with observed response values per instance.
+**obs**: numeric vector with *observed* response values per instance.
 
-**pred**: numeric vector with predicted response values per instance.
+**pred**: numeric vector with *predicted* response values per instance.
 
 **group_IDs**: character vector with group labels per instance.
 
