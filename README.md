@@ -34,7 +34,7 @@ This is the main function to generate cigar plots.
 
 *Output:*
 
-Generates a ciagr plot to the current graphics device.
+Generates a cigar plot to the current graphics device.
 
 ## cigar_plot.calc_metrics()
 
