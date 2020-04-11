@@ -10,7 +10,7 @@ This is the main function to generate cigar plots.
 
 **pred_mean**: numeric vector with mean *predicted* response per group
 
-**performances**: numeric vector with within-group performance measures. Values are expected to range between -1 and 1 (e.g. pearon or spearman correlation coefficients)
+**performances**: numeric vector with within-group performance measures. Values are expected to range between -1 and 1 (e.g. pearson or spearman correlation coefficients)
 
 *Optional inputs:*
 
