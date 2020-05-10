@@ -1,5 +1,3 @@
-# cigar_plots.R
-
 Cigar plots represent a visualization strategy to simultaneously display within- and between-group prediction performances. The cigar plot displays the predicted and observed drug response in an x-y plot, and highlights their concordance (i.e., the prediction performance) at two levels. First, the variation within each group is shown as an ellipse, with the within-group concordance (e.g., measured by rank correlation coefficients) shown as the tilt and width of the ellipses. Second, the between-group variation (differences of group mean values) is shown as the location of ellipsis centers.
 
 Ellipsis *tilt* is calculated by 45° × correlation coefficient: coefficient of 1 is associated with a 45° tilt, coefficient of 0 a 0° tilt, and coefficient of -1 a -45° tilt. The slope of the line across an ellipse is the same as ellipsis tilt.
@@ -7,6 +5,12 @@ Ellipsis *tilt* is calculated by 45° × correlation coefficient: coefficient of
 Ellipsis *length* is scaled to the observed within-group range, with longer ellipses representing groups with larger observed response ranges.
 
 Ellipsis *width* scales with within-group performance and is calculated as: ellipsis length × (1 - absolute correlation coefficient). Larger absolute coefficients result in narrower ellipses (coefficient of 1 results in a line) while smaller coefficients result in rounder ellipses (coefficient of 0 results in a circle). 
+
+If you would like to make use of cigar plots, please cite:
+Lloyd et al (2020) bioRxiv: Pan-cancer predictions of MEK inhibitor sensitivity are partially driven by differences between cancer types
+https://www.biorxiv.org/content/10.1101/800193v3.full
+
+## cigar_plots.R
 
 The **cigar_plots.R** file contains two functions that can be used to generate cigar plots, described below, along with sample code to display example cigar plots.
 
