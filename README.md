@@ -7,7 +7,9 @@ Ellipsis *length* is scaled to the observed within-group range, with longer elli
 Ellipsis *width* scales with within-group performance and is calculated as: ellipsis length × (1 - absolute correlation coefficient). Larger absolute coefficients result in narrower ellipses (coefficient of 1 results in a line) while smaller coefficients result in rounder ellipses (coefficient of 0 results in a circle). 
 
 If you would like to make use of cigar plots, please cite:
+
 Lloyd et al (2020) bioRxiv: Pan-cancer predictions of MEK inhibitor sensitivity are partially driven by differences between cancer types
+
 https://www.biorxiv.org/content/10.1101/800193v3.full
 
 ## cigar_plots.R
